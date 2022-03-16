@@ -1,6 +1,6 @@
 ### 1) Add the source text
 
-Start by adding the source text to [root/001.txt](root/001.txt) file. 
+Start by adding the source text to [../root/001.txt](root/001.txt) file. 
 
 **NOTE:** The source text should be segmented in the way where each line in the file represents a fragment of text to be translated (i.e. loosely speaking a sentence).
 
@@ -14,7 +14,7 @@ Go to `Dashboard` from the top navigation menu and click `Create new project` bu
 
 Give a name to your project, and choose `File based: Upload a language file (eg. po, yml, xliff) with your contents` under the `Choose project type` heading. Set `Source language` and `Target language` and then click `Create project`. 
 
-**NOTE:** The directory names in [wip/](wip) directory have to correspond with the source and target language codes in Transifex. The default is `bo` and `en`. 
+**NOTE:** The directory names in [../wip/](wip) directory have to correspond with the source and target language codes in Transifex. The default is `bo` and `en`. 
 
 ### 4) Making the connection between Github and Transifex
 
