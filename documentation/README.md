@@ -2,6 +2,11 @@
 
 - [Prequisites](#prerequisites)
 - [Step-1: Add the source text](#step-1-add-the-source-text)
+- [Step-2: Configure the languages](#step-2-configure-the-languages)
+- [Step-3: Create the translation resources](#step-3-create-the-translation-resources)
+- [Step-4: Create a new project in Transifex](#step-4-create-a-new-project-in-transifex)
+- [Step-5: Making the connection between Github and Transifex](#step-5-making-the-connection-between-github-and-transifex)
+- [Step-6: Starting working in Transifex](#step-6-starting-working-in-transifex)
 
 ## Prerequisites 
 
