@@ -6,7 +6,9 @@ Start by adding the source text to [root/001.txt](../root/001.txt) file.
 
 ### 2) Create the translation resources 
 
-Create a new branch in Github named `first_phase` by clicking the branches selector, then typing `first_phase` into the text and clicking `Create branch`. This will automatically prepare everything for Transifex
+Create a new branch in Github named `first_phase` by clicking the branches selector, then typing `first_phase` into the text and clicking `Create branch`. This will automatically prepare everything for Transifex. 
+
+NOTE: The status of the automated process can be followed in `Actions` tab.
 
 ### 3) Create a new project in Transifex
 
