@@ -40,7 +40,7 @@ Go to `Dashboard` from the top navigation menu and click `Create new project` bu
 
 Give a name to your project, and choose `File based: Upload a language file (eg. po, yml, xliff) with your contents` under the `Choose project type` heading. Set `Source language` and `Target language` and then click `Create project`. 
 
-**NOTE:** The directory names in [wip/](../wip) directory have to correspond with the source and target language codes in Transifex. The default is `bo` and `en`. 
+**NOTE:** The language settings here have to correspond with the language settings from [Step-2: Configure the languages](#step-2-configure-the-languages). The default is `bo` and `en`. 
 
 Once project is created, after clicking `Settings` below the name of the project on the left navigation pane, go to the bottom of the `General` settings and check `My project is a non-commercial Open Source project` and paste the URL of the Github repository for your project in the opening text field. Click `Save changes`.
 
