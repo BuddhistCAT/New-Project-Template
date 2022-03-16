@@ -14,20 +14,20 @@
 </p>
 
 <p align="center">
-  <a href="#description">Description</a> •
-  <a href="#docs">Docs</a>
-  <a href="#get-help">Get Help</a>
+  <a href="#floppy_disk-description">Description</a> •
+  <a href="#closed_book-docs">Docs</a>
+  <a href="#speech_balloon-get-help">Get Help</a>
 </p>
 <hr>
 
-## Description
+## :floppy_disk: Description
 
 A template repository for setting up Transifex translation workflow. Replace the content in this section with the title of your project.
 
-## Docs
+## :closed_book: Docs
 
 [Getting Started](documentation/README.md)
 
-## Get Help
+## :speech_balloon: Get Help
 
 If you need any help or have suggestions for improvements, you can do that [here](https://github.com/Lotus-King-Translation/Transifex-Workflow-Template/issues/new).
