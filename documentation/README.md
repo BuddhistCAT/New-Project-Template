@@ -16,6 +16,8 @@ Create a new branch in Github named `first_phase` by clicking the branches selec
 
 NOTE: The status of the automated process can be followed in `Actions` tab.
 
+Once the automated process has completed, go to `Pull Requests` tab and create a new pull request where the base is `main` and compare is `first_phase` and click `Create pull request`.
+
 ### 3) Create a new project in Transifex
 
 Go to `Dashboard` from the top navigation menu and click `Create new project` button from the bottom of the screen.
