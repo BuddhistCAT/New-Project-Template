@@ -1,3 +1,9 @@
+### Prequisites 
+
+- You have created a new repository which has the contents of [Transifex Workflow Template](https://github.com/Lotus-King-Translation/Transifex-Backend-Template)
+- You have created a [Personal Github Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- You have added the `Personal Access Token` as a [secret into the new repository](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-codespaces#adding-secrets-for-a-repository)
+
 ### 1) Add the source text
 
 Start by adding the source text to [root/001.txt](../root/001.txt) file. 
