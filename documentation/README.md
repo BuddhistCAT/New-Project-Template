@@ -40,3 +40,7 @@ The integration will work with this branch only.` Click `Next`.
 Make sure that under `Add a path to your YAML config file` it says `transifex.yml` and click `Apply`. 
 
 Set `Push translations` to `100% translated or updated (for 100% translated) and under `How would you like Transifex to push translations to GitHub?` choose `Commit directly`. Then click `Save & Sync`. 
+
+### 5) Starting working in Transifex
+
+You are now all set and ready to translate. Have fun!
