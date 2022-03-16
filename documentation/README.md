@@ -34,24 +34,9 @@ Once project is created, after clicking `Settings` below the name of the project
 
 Start by clicking the project name on the left navigation pane, and then choosing `Settings`.
 
-From `Settings` choose `Integrations` tab.
+From `Settings` choose `Integrations` tab and under the section `Github` click `Link Repository`. Select the repository you want to connect from the dropdown menu under `Transifex will pull content from this repository.`. Then select `main` from the drop down under `
+The integration will work with this branch only.` Click `Next`.
 
-```
-filters:
-  - filter_type: file
-    file_format: PO
-    source_language: bo
-    source_file: wip/bo/001.po
-    translation_files_expression: 'wip/<lang>/001.po'
-```
+Make sure that under `Add a path to your YAML config file` it says `transifex.yml` and click `Apply`. 
 
-NOTE: The `source_language` field and `source_file` both have to correspond with the source language of the project. The above example is for `bo` (Tibetan). In the case of the source language being English, the following will work: 
-
-```
-filters:
-  - filter_type: file
-    file_format: PO
-    source_language: en
-    source_file: wip/en/001.po
-    translation_files_expression: 'wip/<lang>/001.po'
-```
+Set `Push translations` to `100% translated or updated (for 100% translated) and under `How would you like Transifex to push translations to GitHub?` choose `Commit directly`. Then click `Save & Sync`. 
