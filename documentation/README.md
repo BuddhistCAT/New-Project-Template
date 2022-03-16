@@ -26,6 +26,10 @@ Give a name to your project, and choose `File based: Upload a language file (eg.
 
 **NOTE:** The directory names in [wip/](../wip) directory have to correspond with the source and target language codes in Transifex. The default is `bo` and `en`. 
 
+Once project is created, after clicking `Settings` below the name of the project on the left navigation pane, go to the bottom of the `General` settings and check `My project is a non-commercial Open Source project` and paste the URL of the Github repository for your project in the opening text field. Click `Save changes`.
+
+**NOTE:** If your project is not available in [Creative Commons](https://creativecommons.org/) or other permissive open source license, you have to pay for Transifex.
+
 ### 4) Making the connection between Github and Transifex
 
 Start by clicking the project name on the left navigation pane, and then choosing `Settings`.
