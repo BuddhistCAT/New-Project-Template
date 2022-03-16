@@ -1,0 +1,7 @@
+git:
+  filters:
+  - filter_type: file
+    file_format: PO
+    source_language: bo
+    source_file: wip/bo/001.po
+    translation_files_expression: 'wip/<lang>/001.po'
