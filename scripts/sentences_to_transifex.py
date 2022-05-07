@@ -156,9 +156,18 @@ if __name__ == '__main__':
     
     folder = 'root/'
     
-    files = sorted(list(Path(folder).glob('*.txt')))
+    if len(sys.argv) > 1:
     
-    for file in files:
-
+        stem = sys.argv[1]
+        file = Path(folder) / (stem + '.txt')
+        print(file)
         po = Po()
         po.txt_to_po(file)
+    
+    else:
+        
+        files = sorted(list(Path(folder).glob('*.txt')))
+        for file in files:
+            print(file)
+            po = Po()
+            po.txt_to_po(file)
