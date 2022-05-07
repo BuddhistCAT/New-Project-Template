@@ -3,7 +3,7 @@
 source .languages
 
 # remove empty lines
-cat root/001.txt | grep -v -e "[[:blank:]]$" | grep -v -e "^$" > temp.txt
+cat root/001.txt | grep -v -e "^$" | grep -v '^ *$' > temp.txt
 mv temp.txt root/001_v2.txt
 
 # prepare into .po format 
