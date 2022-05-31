@@ -55,7 +55,7 @@ class Po:
             f.write(no_notes)
 
             # format tokens
-            no_notes = re.sub('([^།་_]) ([^_།་])', '\g<1>␣\g<2>', no_notes)   # affixed particles
+            no_notes = re.sub('([^།་_]) ([^_།་])', '\g<1>་␣\g<2>', no_notes)   # affixed particles
             no_notes = re.sub('_', ' ', no_notes)   # spaces
             self._create_entry(msgid=no_notes, msgctxt=ctxt, tcomment=line)
 
