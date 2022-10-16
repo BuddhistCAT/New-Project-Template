@@ -1,7 +1,7 @@
 f = open('pairs.csv', 'w')
 
 import polib
-po = polib.pofile('/Users/upstairs/dev/Kunzang-Monlam/wip/en/001.po')
+po = polib.pofile('wip/en/001.po')
 
 for entry in po:
 
