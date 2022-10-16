@@ -1,8 +1,6 @@
 import sys
 
-target_language = sys.argv[0]
-
-print('TARGET_LANGUAGE : ' + target_language)
+target_language = sys.argv[1]
 
 f = open('exports/' + target_language + '.csv', 'w')
 
