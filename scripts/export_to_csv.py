@@ -4,8 +4,6 @@ target_language = sys.argv[1]
 
 file_path = 'exports/' + target_language + '.csv'
 
-print(file_path)
-
 f = open(file_path, 'w')
 
 import polib
