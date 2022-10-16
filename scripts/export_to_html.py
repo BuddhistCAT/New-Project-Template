@@ -17,7 +17,7 @@ tibetan = '<p class="ml-7 mb-1 mt-12 tracking-wide text-3xl text-gray-900 dark:t
 translation = '<p class="ml-7 text-2xl text-gray-900 dark:text-white" style="font-family: Noto Serif, serif;">'
 footer = '<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script></body></html>'
 
-f = open('index.html', 'w')
+f = open('exports/index.html', 'w')
 
 import polib
 po = polib.pofile('wip/en/001.po')
@@ -26,8 +26,8 @@ f.write(header)
 out = []
 for entry in po:
 
-    f.write(tibetan + entry.msgid.replace(' ' ,'').replace('␣', '').replace(' ', ' '))
-    f.write(translation + entry.msgstr)
+    f.write(tibetan + entry.msgid.replace(' ' ,'').replace('␣', '').replace(' ', ' ') + '\n')
+    f.write(translation + entry.msgstr + '\n')
 
 f.write(footer)
 f.close()
