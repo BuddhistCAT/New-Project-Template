@@ -19,7 +19,9 @@ jobs:
     - name: Build
       run: |
         wget https://raw.githubusercontent.com/Lotus-King-Translation/Transifex-Workflow-Template/main/scripts/export_to_html.py
+        mkdir -p exports
         python export_to_html.py
+        rm export_to_html.py
     - name: Make Commit
       run: |
         git config --global user.email mailme@mikkokotila.com
