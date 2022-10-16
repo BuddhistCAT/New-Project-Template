@@ -1,4 +1,4 @@
-f = open('pairs.csv', 'w')
+f = open('exports/en.csv', 'w')
 
 import polib
 po = polib.pofile('wip/en/001.po')
