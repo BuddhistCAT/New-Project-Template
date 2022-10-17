@@ -20,7 +20,8 @@ jobs:
       run: |
         wget https://raw.githubusercontent.com/Lotus-King-Translation/Transifex-Workflow-Template/main/scripts/export_to_csv.py
         mkdir -p exports
-        python export_to_csv.py
+        source .languages
+        python export_to_csv.py $TARGET_LANGUAGE
         rm export_to_csv.py
     - name: Make Commit
       run: |
