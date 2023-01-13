@@ -1,18 +1,35 @@
+# HOW-TO: Starting a New Project
+
 ## Table of Contents
 
 - [Prequisites](#prerequisites)
-- [Step-1: Add the source text](#step-1-add-the-source-text)
-- [Step-2: Configure the languages](#step-2-configure-the-languages)
-- [Step-3: Create the translation resources](#step-3-create-the-translation-resources)
-- [Step-4: Create a new project in Transifex](#step-4-create-a-new-project-in-transifex)
-- [Step-5: Making the connection between Github and Transifex](#step-5-making-the-connection-between-github-and-transifex)
-- [Step-6: Starting working in Transifex](#step-6-starting-working-in-transifex)
+- [Step-1: Create a new repository](#step-2-create-a-new-repository)
+- [Step-2: Add the source text](#step-1-add-the-source-text)
+- [Step-3: Configure the languages](#step-2-configure-the-languages)
+- [Step-4: Create the translation resources](#step-3-create-the-translation-resources)
+- [Step-5: Create a new project in Transifex](#step-4-create-a-new-project-in-transifex)
+- [Step-6: Making the connection between Github and Transifex](#step-5-making-the-connection-between-github-and-transifex)
+- [Step-7: Starting working in Transifex](#step-6-starting-working-in-transifex)
 
 ## Prerequisites 
 
-- You have created a repository by forking [Transifex Workflow Template](https://github.com/Lotus-King-Translation/Transifex-Backend-Template) following the instructions [found here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
+- [ ] You have a Github account
+- [ ] You have created a Github organization (this is where all your projects will live)
+- [ ] You have been added to the [BuddhistCAT](https://github.com/BuddhistCAT/) Github organization
 
-## Step-1: Add the source text
+## Step-1: Create a new repository
+
+For every project, or however you want to break things down (texts, chapters, etc.), there will be a Github repository.
+
+<img width="1330" alt="Screenshot 2023-01-13 at 13 08 36" src="https://user-images.githubusercontent.com/7943188/212306289-c91969c4-430a-4a16-bad9-4b3fc1b2c8db.png">
+
+Once you have clicked `new repository` from the menu, the dialogue for creating a new repository will be opened. The key point here is to select the `BuddhistCAT/New-Project-Template`:
+
+<img width="1330" alt="Screenshot 2023-01-13 at 13 10 16" src="https://user-images.githubusercontent.com/7943188/212306652-b5d6c7b3-bd2c-4131-9f25-8ec1c38a42cf.png">
+
+For the rest, make sure that the `Owner` field is set to the organization where you want to keep your projects on Github.
+
+## Step-2: Add the source text
 
 Start by adding the source text to [root/001.txt](../root/001.txt) file. 
 
@@ -20,7 +37,7 @@ Start by adding the source text to [root/001.txt](../root/001.txt) file.
 
 ## Step-2: Configure the languages
 
-Set the `SOURCE_LANGUAGE` and `TARGET_LANGUAGE` variables in [.languages](../.languages). 
+If you are translating to other language than English, set the `SOURCE_LANGUAGE` and `TARGET_LANGUAGE` variables in [.languages](../.languages). 
 
 **NOTE:** The language codes have to be in the same form as in Transifex. Defaults are `bo` (Tibetan) for `SOURCE_LANGUAGE` and `en` (English) for `TARGET_LANGUAGE`.
 
