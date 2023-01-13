@@ -13,9 +13,16 @@
 
 ## Prerequisites 
 
+### On Github
+
 - [ ] You have a Github account
 - [ ] You have created a Github organization (this is where all your projects will live)
 - [ ] You have been added to the [BuddhistCAT](https://github.com/BuddhistCAT/) Github organization
+
+### On Transifex
+
+- [ ] You have connected Transifex with your Github Organization (see how here: https://www.youtube.com/watch?v=cdhndeB-1N0&t=0s)
+
 
 ## Step-1: Create a new repository
 
