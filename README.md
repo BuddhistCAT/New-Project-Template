@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h3 align="center">Transifex Worfklow Template</h3>
+<h3 align="center">New Project Template</h3>
 
 <p align="center">
   
