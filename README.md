@@ -22,7 +22,7 @@
 
 ## :floppy_disk: Description
 
-A template repository for setting up Transifex translation workflow. Replace the content in this section with the title of your project.
+A template repository for setting up the BuddhistCAT translation workflow. Replace the content in this section with the title of your project.
 
 ## :closed_book: Docs
 
