@@ -21,7 +21,7 @@
 
 ### On Transifex
 
-- [ ] You have connected Transifex with your Github Organization (see how here: https://www.youtube.com/watch?v=cdhndeB-1N0&t=0s)
+- [ ] You have connected Transifex with your Github Organization (see how in [this video](https://www.youtube.com/watch?v=cdhndeB-1N0&t=0s))
 
 
 ## Step-1: Create a new repository
