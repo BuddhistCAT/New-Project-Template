@@ -36,3 +36,9 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
+    - name: Clean Up
+      run: |
+        rm scripts/run_first_phase.py
+        rm scripts/token_statistics.py
+        rm scripts/sentences_to_transifex.py
+        rm .github/workflows/first_phase.yml
