@@ -25,13 +25,3 @@ mv transifex_temp.yml transifex.yml
 
 # word_segment statistics
 python3 scripts/token_statistics.py
-
-# cleanup
-rm scripts/sentences_to_transifex.py
-
-## NOTE: because of this next line, there will be
-## two PRs required for each change, one with this 
-## line commented out, followed by another where
-## the comment is removed. Sorry.
-
-rm .github/workflows/first_phase.yml
