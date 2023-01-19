@@ -2,7 +2,7 @@ name: Build Modified Data
 
 on:
   push:
-    branches: [ first_phase ] 
+    branches: main
 
 jobs:
   build:
@@ -28,11 +28,11 @@ jobs:
       run: |
         git config --global user.email mailme@mikkokotila.com
         git config --global user.name "Mikko Kotila"
-        git checkout -b "first_phase_ci"
+        git checkout -b "first_phase"
         git add --all
         git commit -m "First Phase"
     - name: Push Changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: first_phase
+        branch: main
