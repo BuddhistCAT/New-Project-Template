@@ -19,7 +19,7 @@ jobs:
         pip install antx
         pip install botok
         pip install pandas
-    - name: Build
+    - name: Build Transifex Assets
       run: |
         chmod +x scripts/run_first_phase.sh 
         scripts/run_first_phase.sh
@@ -34,4 +34,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        branch: transifex
