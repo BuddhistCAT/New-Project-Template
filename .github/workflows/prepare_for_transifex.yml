@@ -1,4 +1,4 @@
-name: Build Modified Data
+name: Prepare for Transifex
 
 on:
   workflow_dispatch:  # click the button on Github repo!
