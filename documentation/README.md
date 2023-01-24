@@ -17,7 +17,7 @@
 
 - [ ] You have a Github account
 - [ ] You have created a Github organization (this is where all your projects will live)
-- [ ] You have been added to the [BuddhistCAT](https://github.com/BuddhistCAT/) Github organization
+- [ ] You have been added as a member to the [BuddhistCAT](https://github.com/BuddhistCAT/) Github organization
 
 ### On Transifex
 
@@ -50,11 +50,15 @@ If you are translating to other language than English, set the `SOURCE_LANGUAGE`
 
 ## Step-3: Create the translation resources 
 
-Create a new branch in Github named `first_phase` by clicking the branches selector, then typing `first_phase` into the text and clicking `Create branch`. This will automatically prepare everything for Transifex. 
+In the project repository, go to the `Actions` tab (between Pull requests and Projects) and from the left navigation pane choose `Prepare for Transifex` as per the below image shows:
 
-NOTE: The status of the automated process can be followed in `Actions` tab.
+<img width="1731" alt="Screenshot 2023-01-24 at 11 43 29" src="https://user-images.githubusercontent.com/7943188/214259431-5f3b44ff-8e9a-40ba-95e9-286ab1888c31.png">
 
-Once the automated process has completed, go to `Pull Requests` tab and create a new pull request where the base is `main` and compare is `first_phase` and click `Create pull request`.
+Having done that, click the button that says `Run workflow` on the right, and click the green button that says `Run workflow` as per the below image shows:
+
+<img width="1731" alt="Screenshot 2023-01-24 at 11 43 40" src="https://user-images.githubusercontent.com/7943188/214259665-86f67247-9219-4252-a671-2aed76386a6c.png">
+
+**NOTE**: The status of the automated process can be followed in `Actions` tab. It takes about one minute to complete. Once it is completed, you can move to the next step.
 
 ## Step-4: Create a new project in Transifex
 
@@ -64,21 +68,26 @@ Give a name to your project, and choose `File based: Upload a language file (eg.
 
 **NOTE:** The language settings here have to correspond with the language settings from [Step-2: Configure the languages](#step-2-configure-the-languages). The default is `bo` and `en`. 
 
-Once project is created, after clicking `Settings` below the name of the project on the left navigation pane, go to the bottom of the `General` settings and check `My project is a non-commercial Open Source project` and paste the URL of the Github repository for your project in the opening text field. Click `Save changes`.
-
-**NOTE:** If your project is not available in [Creative Commons](https://creativecommons.org/) or other permissive open source license, you have to pay for Transifex.
-
 ## Step-5: Making the connection between Github and Transifex
 
-Start by clicking the project name on the left navigation pane, and then choosing `Settings`.
+Start by clicking the project name on the left navigation pane, and then choosing `Settings` from the menu that opens after clicking the project name.
 
-From `Settings` choose `Integrations` tab and under the section `Github` click `Link Repository`. Select the repository you want to connect from the dropdown menu under `Transifex will pull content from this repository.`. Then select `main` from the drop down under `
-The integration will work with this branch only.` Click `Next`.
+From `Settings` choose `Integrations` tab and under the section `Github` click `Link Repository`. Select the repository you want to connect from the dropdown menu under `Transifex will pull content from this repository.`. Then select `transifex` from the drop down under `The integration will work with this branch only.` Then click `Next`.
 
-Make sure that under `Add a path to your YAML config file` it says `transifex.yml` and click `Apply`. 
+In the next step in the dialogue, titled `Select files to synchronize`, click `Next`. There is nothing to be done in this step.
+
+In the final step in the dialogue, titled `Sync content options`, choose `100% translated, and `Commit directly`.
+
+Sometimes it takes a moment for Transifex to sync the project, so you might click `Send to GitHub` under the `Integrations` tab where you automatically return having completed the above steps. Clicking `Send to Github` will open a new dialogue, where you want to add `1` as the value to `threshold pertentage`.
 
 Set `Push translations` to `100% translated or updated (for 100% translated) and under `How would you like Transifex to push translations to GitHub?` choose `Commit directly`. Then click `Save & Sync`. 
 
 ## Step-6: Starting working in Transifex
 
 You are now all set and ready to translate. Have fun!
+
+## Additional steps for those wanting to use Transifex for free
+
+Once a new project is created, after clicking `Settings` below the name of the project on the left navigation pane, go to the bottom of the `General` settings and check `My project is a non-commercial Open Source project` and paste the URL of the Github repository for your project in the opening text field. Click `Save changes`.
+
+**NOTE:** If your project is not available in [Creative Commons](https://creativecommons.org/) or other permissive open source license, you have to pay for Transifex.
