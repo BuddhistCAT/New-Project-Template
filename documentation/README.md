@@ -38,17 +38,17 @@ For the rest, make sure that the `Owner` field is set to the organization where 
 
 ## Step-2: Add the source text
 
-Start by adding the source text the file named `001.txt` in the directory `root` in the project repository you have just created.
+Go to the `Code` tab in the new project repository you have just created. Start by adding the source text the file named `001.txt` in the directory `root`.
 
 **NOTE:** The source text should be segmented in the way where each line in the file represents a fragment of text to be translated (i.e. loosely speaking a sentence).
 
-## Step-2: Configure the languages
+## Step-3: Configure the languages
 
 If you are translating to other language than English, set the `SOURCE_LANGUAGE` and `TARGET_LANGUAGE` variables in [.languages](../.languages). 
 
 **NOTE:** The language codes have to be in the same form as in Transifex. Defaults are `bo` (Tibetan) for `SOURCE_LANGUAGE` and `en` (English) for `TARGET_LANGUAGE`.
 
-## Step-3: Create the translation resources 
+## Step-4: Create the translation resources 
 
 In the project repository, go to the `Actions` tab (between Pull requests and Projects) and from the left navigation pane choose `Prepare for Transifex` as per the below image shows:
 
@@ -60,7 +60,7 @@ Having done that, click the button that says `Run workflow` on the right, and cl
 
 **NOTE**: The status of the automated process can be followed in `Actions` tab. It takes about one minute to complete. Once it is completed, you can move to the next step.
 
-## Step-4: Create a new project in Transifex
+## Step-5: Create a new project in Transifex
 
 Go to `Dashboard` from the top navigation menu and click `Create new project` button from the bottom of the screen.
 
@@ -68,7 +68,7 @@ Give a name to your project, and choose `File based: Upload a language file (eg.
 
 **NOTE:** The language settings here have to correspond with the language settings from [Step-2: Configure the languages](#step-2-configure-the-languages). The default is `bo` and `en`. 
 
-## Step-5: Making the connection between Github and Transifex
+## Step-6: Making the connection between Github and Transifex
 
 Start by clicking the project name on the left navigation pane, and then choosing `Settings` from the menu that opens after clicking the project name.
 
@@ -82,7 +82,7 @@ Sometimes it takes a moment for Transifex to sync the project, so you might clic
 
 Set `Push translations` to `100% translated or updated (for 100% translated) and under `How would you like Transifex to push translations to GitHub?` choose `Commit directly`. Then click `Save & Sync`. 
 
-## Step-6: Starting working in Transifex
+## Step-7: Starting working in Transifex
 
 You are now all set and ready to translate. Have fun!
 
