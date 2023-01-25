@@ -38,7 +38,7 @@ For the rest, make sure that the `Owner` field is set to the organization where 
 
 ## Step-2: Add the source text
 
-Start by adding the source text to [root/001.txt](../root/001.txt) file. 
+Start by adding the source text the file named `001.txt` in the directory `root` in the project repository you have just created.
 
 **NOTE:** The source text should be segmented in the way where each line in the file represents a fragment of text to be translated (i.e. loosely speaking a sentence).
 
